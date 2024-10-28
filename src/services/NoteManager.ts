@@ -5,12 +5,12 @@ export class NoteManager {
   private currentId: number = 1;
 
   /**
-   *Add new note in note list
+   * Create new Note and add it in note list
    *
    * @param {string} title note title
    * @param {string} content note content
    */
-  addNote(title: string, content: string): void {
+  CreateNote(title: string, content: string): void {
     const newNote = new Note(this.currentId++, title, content);
     this.notes.push(newNote);
     console.log(`Note added: ${title}`);
@@ -21,7 +21,7 @@ export class NoteManager {
    *
    */
   listNotes(): void {
-    console.log("Listing all notes:");
+    console.log("\nListing all notes:");
     this.notes.forEach((note) => {
       console.log(
         `ID: ${note.id}, Title: ${note.title}, Content: ${note.content}`

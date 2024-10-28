@@ -4,6 +4,12 @@ In this project, I aimed to deepen my understanding of TypeScript and its capabi
 
 The purpose of writing this software is to solidify my grasp of TypeScript as a programming language and to showcase how it can be used to build practical applications. By working on this project, I have gained valuable insights into TypeScript's type system, error handling, and the importance of code organization.
 
+To start the app on your local computer, follow these steps:
+1. Clone the repository.
+1. Run **npm install** to install the necessary dependencies
+1. Run **npm run watch** to build typescript files
+1. Run **npm run dev** to run the project
+
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment

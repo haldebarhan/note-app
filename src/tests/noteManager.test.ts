@@ -3,14 +3,15 @@ import { NoteManager } from "../services/NoteManager";
 describe("NoteManager Tests", () => {
   let manager: NoteManager;
 
+  // Create new Note Manager and new note before all tests
   beforeEach(() => {
     manager = new NoteManager();
-    manager.addNote("Test Note", "This is a test note.");
+    manager.CreateNote("Test Note", "This is a test note.");
   });
 
   test("Add and list notes", () => {
     expect(manager["notes"].length).toBe(1);
-    manager.addNote("Second Note", "Another test note.");
+    manager.CreateNote("Second Note", "Another test note.");
     expect(manager["notes"].length).toBe(2);
   });
 
