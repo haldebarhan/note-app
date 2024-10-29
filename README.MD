@@ -10,7 +10,7 @@ To start the app on your local computer, follow these steps:
 1. Run **npm run watch** to build typescript files
 1. Run **npm run dev** to run the project
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/BnEgTxR1nfQ)
 
 # Development Environment
 
